@@ -2,10 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import getUserStyles from './api/get-user-styles';
+import setTheme from './utils/set-theme'
 
 (async () => {
-  // Todo setup the global themes
-  
+  const userStyles = await getUserStyles()
+  setTheme(userStyles)
+
   ReactDOM.render(
     <React.StrictMode>
       <App />

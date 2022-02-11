@@ -21,6 +21,7 @@ Unit testing can be started by running `npm test` in the app root folder.
 ## Future Improvements
 * Improve accessbility
 * Improve responsiveness
+* Fix issues with contrast (logo text, username) incase the background colour is dark
 
 ## Decisions
 * Utilized css variables instead of library/framework-specific code (styled-components, jss) to apply global styles. This is to make any transistion to different code easier if we do decide in the future.
