@@ -19,9 +19,8 @@
 Unit testing can be started by running `npm test` in the app root folder.
 
 ## Future Improvements
-* 
+* Improve accessbility
+* Improve responsiveness
 
 ## Decisions
-
-Universal Code is Easier to Maintain and Scale
-Another reason would be to make your UI components as universal as possible. That means using universal technologies (JS, CSS, HTML), as oppose to library/framework-specific code (for example, ‘styled-components’ or even embedding you styling in your React components).
+* Utilized css variables instead of library/framework-specific code (styled-components, jss) to apply global styles. This is to make any transistion to different code easier if we do decide in the future.

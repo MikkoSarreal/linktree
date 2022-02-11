@@ -8,10 +8,14 @@ body {
     line-height: 1.5;
     margin: 0;
     min-height: 100vh;
-    overflow-x: hidden;
     padding: 0;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: $font-weight-medium;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
 }
