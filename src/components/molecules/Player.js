@@ -3,6 +3,7 @@ import React from 'react'
 function Player({url}) {
   return (
     <iframe 
+      role="presentation"
       src={url}
       autoPlay
       width="100%"

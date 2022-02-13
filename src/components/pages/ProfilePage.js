@@ -16,6 +16,7 @@ function ProfilePage() {
   
   return (
     <ProfileTemplate
+      title={'profile-page'}
       profileImage={profileImage}
       username={"@username"}
       links={links}

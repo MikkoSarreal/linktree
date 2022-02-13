@@ -5,10 +5,10 @@ import Links from '../organisms/Links';
 import Footer from '../organisms/Footer'
 import { MusicPlayerProvider } from '../../contexts/music-player-context'
 
-function ProfileTemplate({username, profileImage, links}) {
+function ProfileTemplate({title, username, profileImage, links}) {
   return (
     <MusicPlayerProvider>
-      <Wrapper>
+      <Wrapper title={title}>
         <UserProfile username={username} profileImage={profileImage} />
         <Links links={links} />
         <Footer />

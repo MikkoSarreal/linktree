@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Wrapper({children}) {
+function Wrapper({children, title}) {
   return (
-    <div className="wrapper">
+    <div title={title} className="wrapper">
       {children}
     </div>
   );
