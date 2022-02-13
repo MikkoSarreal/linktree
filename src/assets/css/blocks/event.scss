@@ -1,0 +1,22 @@
+.event {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    
+    &__details {
+        margin: 10px 0;
+
+        & > * {
+            margin: 4px 0;
+        }
+
+        & > h3 {
+            font-size: 20px;
+        }
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+    }
+}

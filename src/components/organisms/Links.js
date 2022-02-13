@@ -1,13 +1,11 @@
 import React from 'react'
-import Button from '../atoms/Button';
+import Link from '../molecules/Link';
 
 function Links({links = []}) {
   return (
     <ul className='links'>
       {links.map((link, index) => (
-        <li>
-          <Button key={index}>Hi</Button>
-        </li>
+        <Link key={index} {...link} />
       ))}
     </ul>
   );

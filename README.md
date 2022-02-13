@@ -19,9 +19,14 @@
 Unit testing can be started by running `npm test` in the app root folder.
 
 ## Future Improvements
+* Improve Music player to use html audio element for fine grain control
+* Use context to store active states and current music platform choice
 * Improve accessbility
 * Improve responsiveness
 * Fix issues with contrast (logo text, username) incase the background colour is dark
+* Handle Errors
+* Setup linting and Preetier
+* Animations & Transitions
 
 ## Decisions
 * Utilized css variables instead of library/framework-specific code (styled-components, jss) to apply global styles. This is to make any transistion to different code easier if we do decide in the future.

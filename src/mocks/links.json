@@ -13,27 +13,33 @@
             "players": [
                 {
                     "platform": "appleMusic",
-                    "url": "https://music.apple.com/us/album/pink-skies/1440868329?i=1440868673"
+                    "url": "https://music.apple.com/us/album/pink-skies/1440868329?i=1440868673",
+                    "embed": "https://embed.music.apple.com/us/album/pink-skies/1440868329?i=1440868673"
                 },
                 {
                     "platform": "spotify",
-                    "url": "https://open.spotify.com/track/6BZ6pl5bczDc3cMF1kBaOy?si=332c3a0031dc49db"
+                    "url": "https://open.spotify.com/track/6BZ6pl5bczDc3cMF1kBaOy?si=332c3a0031dc49db",
+                    "embed": "https://open.spotify.com/embed/track/6BZ6pl5bczDc3cMF1kBaOy?utm_source=generator"
                 },
                 {
                     "platform": "soundcloud",
-                    "url": "https://soundcloud.com/thisislany/pink-skies"
+                    "url": "https://soundcloud.com/thisislany/pink-skies",
+                    "embed": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269023097&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
                 },
                 {
                     "platform": "youtubeMusic",
-                    "url": "https://music.youtube.com/watch?v=eD7kpZRGyGs&feature=share"
+                    "url": "https://music.youtube.com/watch?v=eD7kpZRGyGs&feature=share",
+                    "embed": "https://www.youtube.com/embed/eD7kpZRGyGs"
                 },
                 {
                     "platform": "deezer",
-                    "url": "https://deezer.page.link/G9fStPJrmXAzPMFB7"
+                    "url": "https://deezer.page.link/G9fStPJrmXAzPMFB7",
+                    "embed": "https://widget.deezer.com/widget/dark/track/127246953"
                 },
                 {
                     "platform": "tidal",
-                    "url": "https://tidal.com/browse/track/75392157"
+                    "url": "https://tidal.com/browse/track/75392157",
+                    "embed": "https://embed.tidal.com/tracks/75392157"
                 }
             ]
         }
@@ -44,12 +50,12 @@
             "title": "Shows",
             "upcomingEvents": [
                 {
-                    "date": "2022-02-12",
+                    "date": "Feb 12 2022",
                     "venue": "Foro Sol, Mexico City, Mexico",
                     "url": "https://www.songkick.com/concerts/40069674-matisse-at-foro-sol"
                 },
                 {
-                    "date": "2022-02-30",
+                    "date": "Feb 30 2022",
                     "venue": "Jardines de Mexico, Cuernavaca, Mexico",
                     "url": "https://www.songkick.com/festivals/1296358-vaiven/id/40149757-festival-vaiven-2022"
                 }

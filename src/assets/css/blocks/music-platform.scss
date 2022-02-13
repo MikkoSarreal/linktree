@@ -1,0 +1,29 @@
+.music-platform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+    cursor: pointer;
+    
+    &__details {
+        align-items: center;
+        border-bottom: 1px solid #DADEE0;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+
+    }
+
+    & svg {
+        & > path {
+            fill: #455A64;
+        }
+    }
+
+    &__logo {
+        align-self: baseline;
+    }
+}

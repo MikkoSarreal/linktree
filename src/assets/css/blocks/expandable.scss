@@ -1,0 +1,12 @@
+.expandable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0;
+    overflow: hidden;
+
+    &--expanded {
+        padding: 20px;
+        height: auto;
+    }
+}
